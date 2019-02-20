@@ -1,4 +1,4 @@
-i = int(input("Enter an positive integer: "))
+i = int(input("Enter a positive integer: "))
 
 total = 0
 
