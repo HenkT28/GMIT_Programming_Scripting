@@ -18,5 +18,4 @@ elif i == 4:
 # 10 because it's the sum of 0, 1, 2, 3 and 4       
      print(10)       
 
-# If you don't know how many elif clauses you need in an if statement, 
-# that kind of situation is well suited, to what we call a while loop.
+# If you don't know how many elif clauses you need in an if statement, that kind of situation is well suited, to what we call a while loop.
