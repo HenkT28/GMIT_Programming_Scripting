@@ -15,10 +15,10 @@ no = 0
 
 while True:
     try:
-        if answer.lower() == "y":
+        if (answer.lower() == "y" or answer.lower() == "yes"):
             print ("Great, I’ll make tea now")
             break 
-        elif (answer.lower() == "n" and no != 4):
+        elif ((answer.lower() == "n" or answer.lower() == "no") and no != 4):
             print ("Are you sure?")
             answer = input("Yes, type y, or No, type n: ")
             no = no + 1
